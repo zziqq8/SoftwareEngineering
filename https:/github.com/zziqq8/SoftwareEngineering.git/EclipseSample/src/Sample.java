@@ -14,14 +14,36 @@ public class Sample {
             case 3:
                 System.out.println("吉");
                 break;
- 	    case 4:
-         	System.out.println("末吉");
-		break;
+            case 4:
+            	System.out.println("末吉");
+         		break;
             case 5:
-	        System.out.println("凶");
-	        break;
+            	System.out.println("凶");
+            	break;
             default:
                 System.out.println("大凶");            
+        }
+        
+        System.out.println("ラッキーカラーをお教えします");
+        int fortune_c=rand.nextInt(6)+1;     
+        switch(fortune_c){
+            case 1:
+                System.out.println("赤");
+                break;
+            case 2:
+                System.out.println("青");
+                break;
+            case 3:
+                System.out.println("黄色");
+                break;
+            case 4:
+            	System.out.println("緑");
+         		break;
+            case 5:
+            	System.out.println("白");
+            	break;
+            default:
+                System.out.println("紫");            
         }
     }    
 }
